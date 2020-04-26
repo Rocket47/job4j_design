@@ -2,59 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ffbf473-d68e-42f6-9081-16ac6976c705" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter_001/target/chapter_001-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-checker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-result.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/chapter_001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/chapter_001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/src/test/java/ru/job4j/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/classes/ru/job4j/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/job4j_design-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/surefire-reports/TEST-ru.job4j.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/surefire-reports/ru.job4j.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/test-classes/ru/job4j/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/chapter_002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/chapter_002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/src/main/java/ru/job4j/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/src/test/java/ru/job4j/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/chapter_003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/chapter_003.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/src/main/java/ru/job4j/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/src/test/java/ru/job4j/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/chapter_004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/chapter_004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/src/main/java/ru/job4j/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/src/test/java/ru/job4j/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/chapter_005.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/chapter_005.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/src/main/java/ru/job4j/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/src/test/java/ru/job4j/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_design.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/target/checkstyle-cachefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/job4j_design.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/job4j_design.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,22 +63,22 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="641" y="328" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1587842069400" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587888158723">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587891250003">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587888158723" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587888158723">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587891250003">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587888158723" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587888158723">
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587891250003">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587888158723" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587888158723">
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587891250003">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587888158723" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
     <state x="341" y="148" key="SettingsEditor" timestamp="1587842075684">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
