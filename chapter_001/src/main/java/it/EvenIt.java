@@ -1,16 +1,14 @@
 package it;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class BackwardArrayIt implements Iterator<Integer> {
+public class EvenIt implements Iterator<Integer> {
     private final int[] data;
     private int point = 0;
+    private int index = 0;
 
-    public BackwardArrayIt(int[] data) {
+    public EvenIt(int[] data) {
         this.data = data;
     }
 
@@ -24,7 +22,11 @@ public class BackwardArrayIt implements Iterator<Integer> {
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
-        point++;
-        return data[data.length - point];
+        if (data.length != 0) {
+            index++;
+        } else {
+            index = 0;
+        }
+        return data[data.length - index];
     }
 }
