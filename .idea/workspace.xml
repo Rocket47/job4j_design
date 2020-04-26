@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ffbf473-d68e-42f6-9081-16ac6976c705" name="Default Changelist" comment="" />
+    <list default="true" id="3ffbf473-d68e-42f6-9081-16ac6976c705" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter_001/src/main/java/it/BackwardArrayIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_001/src/test/java/it/BackwardArrayItTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/chapter_001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/chapter_001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/target/chapter_001-2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/chapter_001-2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/chapter_002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/chapter_002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/chapter_003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/chapter_003.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/chapter_004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/chapter_004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/chapter_005.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/chapter_005.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +55,42 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.BackwardArrayItTest">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.Program" />
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackwardArrayItTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it" />
+      <option name="MAIN_CLASS_NAME" value="it.BackwardArrayItTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BackwardArrayItTest" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,29 +117,29 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="641" y="328" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1587842069400" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587891250003">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587923835500">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587891250003">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835500" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587923835500">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587891250003">
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835500" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587923835499">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587891250003">
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835499" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587923835500">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587891250003" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835500" />
     <state x="341" y="148" key="SettingsEditor" timestamp="1587842075684">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="148" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587842075684" />
-    <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1587887503071">
+    <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1587916932445">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="330" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587887503071" />
+    <state x="536" y="330" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587916932445" />
   </component>
 </project>
