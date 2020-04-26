@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
+<file name="F:\Job4jProject\job4j_design\chapter_001\src\main\java\it\BackwardArrayIt.java">
+</file>
+<file name="F:\Job4jProject\job4j_design\chapter_001\src\main\java\it\MatrixIterator.java">
+</file>
+<file name="F:\Job4jProject\job4j_design\chapter_001\src\test\java\it\BackwardArrayItTest.java">
+</file>
+<file name="F:\Job4jProject\job4j_design\chapter_001\src\test\java\it\MatrixIteratorTest.java">
+</file>
 </checkstyle>

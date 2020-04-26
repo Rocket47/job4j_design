@@ -2,25 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ffbf473-d68e-42f6-9081-16ac6976c705" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter_001/src/main/java/it/BackwardArrayIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_001/src/test/java/it/BackwardArrayItTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_001/src/main/java/it/MatrixIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_001/src/test/java/it/MatrixIteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/chapter_001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/chapter_001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_001/target/chapter_001-2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/chapter_001-2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/target/chapter_001-2.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-cachefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/chapter_002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/chapter_002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/chapter_003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/chapter_003.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/chapter_004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/chapter_004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_004/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_004/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/chapter_005.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/chapter_005.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_005/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_005/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/target/chapter_002-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_002/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/target/chapter_003-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_003/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/target/chapter_004-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_004/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/target/chapter_005-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_005/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,40 +112,62 @@
       <option name="presentableId" value="Default" />
       <updated>1587837514699</updated>
     </task>
+    <task id="LOCAL-00001" summary="Reverse for iterator">
+      <created>1587923907314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587923907314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Reverse for iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse for iterator" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="645" y="215" key="#com.intellij.ide.util.MemberChooser" timestamp="1587926894707">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="645" y="215" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1587926894707" />
     <state x="573" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587888212484">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="573" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587888212484" />
+    <state x="494" y="100" key="CommitChangelistDialog2" timestamp="1587923905021">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="494" y="100" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587923905021" />
     <state x="641" y="328" key="FileChooserDialogImpl" timestamp="1587842069400">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="641" y="328" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1587842069400" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587923835500">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587927293219">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835500" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587923835500">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587927293219" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587927293219">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835500" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587923835499">
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587927293219" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587927293219">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835499" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587923835500">
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587927293219" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587927293219">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587923835500" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587927293219" />
     <state x="341" y="148" key="SettingsEditor" timestamp="1587842075684">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="148" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587842075684" />
+    <state x="432" y="239" key="Vcs.Push.Dialog.v2" timestamp="1587923909806">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="239" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587923909806" />
     <state x="536" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1587916932445">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
