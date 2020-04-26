@@ -16,15 +16,15 @@ public class BackwardArrayIt implements Iterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        return point < data.length;
+        return point <= data.length;
     }
 
     @Override
     public Integer next() {
+        point++;
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
-        point++;
         return data[data.length - point];
     }
 }
