@@ -100,6 +100,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="573" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587888212484">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="573" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587888212484" />
     <state x="641" y="328" key="FileChooserDialogImpl" timestamp="1587842069400">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
