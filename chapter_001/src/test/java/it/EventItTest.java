@@ -39,7 +39,7 @@ public class EventItTest {
 
     @Test
     public void  shouldReturnFalseIfNoAnyEvenNumbers() {
-        it = new EvenIt (new int[]{1});
+        it = new EvenIt(new int[]{1});
         assertThat(it.hasNext(), is(false));
     }
 
