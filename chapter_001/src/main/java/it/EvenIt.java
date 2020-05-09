@@ -5,8 +5,8 @@ import java.util.NoSuchElementException;
 
 public class EvenIt implements Iterator<Integer> {
     private final int[] data;
-    private int point = 0;
     private int index = 0;
+    private Integer result = null;
 
     public EvenIt(int[] data) {
         this.data = data;
@@ -14,7 +14,12 @@ public class EvenIt implements Iterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        return point < data.length;
+        for (int i = index; i < data.length; i++) {
+            if (data[i] % 2 == 0) {
+                return true;
+            }
+        }
+        return false;
     }
 
     @Override
@@ -22,11 +27,14 @@ public class EvenIt implements Iterator<Integer> {
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
-        if (data.length != 0) {
+        while (index < data.length) {
+            if (data[index] % 2 == 0) {
+                result = data[index];
+                index++;
+                return result;
+            }
             index++;
-        } else {
-            index = 0;
         }
-        return data[data.length - index];
+        return result;
     }
 }
