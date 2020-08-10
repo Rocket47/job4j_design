@@ -4,11 +4,12 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Objects;
 
+import org.apache.commons.lang.ArrayUtils;
+
 public class SimpleArray<T> implements Iterable {
 
-    Object[] array;
-    Object[] newArray;
-    int index = 0;
+    private Object[] array;
+    private int index = 0;
 
     public SimpleArray(int size) {
         this.array = new Object[size];
@@ -19,31 +20,19 @@ public class SimpleArray<T> implements Iterable {
     }
 
     public void set(int index, T model) {
+        Objects.checkIndex(index, this.index);
         array[index] = model;
     }
 
     public void remove(int index) {
-        try {
-            for (int i = 0; i < array.length; i++) {
-                if (i == index) {
-                    newArray = new Object[array.length - 1];
-                    System.arraycopy(array, 0, newArray, 0, i);
-                    if (array.length - 1 - i >= 0) System.arraycopy(array, i + 1, newArray, i, array.length - 1 - i);
-                    array = newArray;
-                    break;
-                }
-            }
-        } catch (IndexOutOfBoundsException ignored) {
-        }
+        Objects.checkIndex(index, this.index);
+        array = ArrayUtils.removeElement(array, index);
+        this.index--;
     }
 
     public T get(int index) {
-        try {
-            Objects.checkIndex(index, array.length);
-            return (T) array[index];
-        } catch (IndexOutOfBoundsException ex) {
-            return null;
-        }
+        Objects.checkIndex(index, this.index);
+        return (T) array[index];
     }
 
     @Override
