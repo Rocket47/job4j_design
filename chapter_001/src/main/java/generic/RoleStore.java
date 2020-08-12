@@ -1,4 +1,5 @@
 package generic;
 
-public class RoleStore {
+public class RoleStore <T extends Base> {
+
 }

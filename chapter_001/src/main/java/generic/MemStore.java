@@ -2,12 +2,10 @@ package generic;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class MemStore<T extends Base> implements Store<T> {
 
     private final List<T> mem = new ArrayList<>();
-
 
     @Override
     public void add(T model) {
@@ -16,31 +14,49 @@ public class MemStore<T extends Base> implements Store<T> {
 
     @Override
     public boolean replace(String id, T model) {
-        try {
-            int integerId = Integer.parseInt(id);
-            mem.set(integerId, model);
+        int index = getIndex(id);
+        if (index >= 0) {
+            mem.set(index, model);
             return true;
         }
-        catch (Exception ex) {
-            return false;
-        }
+        return false;
     }
 
     @Override
     public boolean delete(String id) {
+        int index = getIndex(id);
         try {
-            int integerId = Integer.parseInt(id);
-            mem.remove(integerId);
+            if (index >= 0)
+                mem.remove(index);
             return true;
-        }
-        catch (Exception ex) {
+        } catch (Exception ex) {
             return false;
         }
     }
 
     @Override
     public T findById(String id) {
-        int integerId = Integer.parseInt(id);
-        return mem.get(integerId);
+        for (T user : mem) {
+            if (user.getId().equals(id)) {
+                return user;
+            }
+        }
+        return null;
+    }
+
+    public int getIndex(String id) {
+        int index = 0;
+        boolean result = false;
+        for (T object : mem) {
+            if (object.getId().equals(id)) {
+                result = true;
+            } else {
+                index++;
+            }
+        }
+        if (!result) {
+            index = -1;
+        }
+        return index;
     }
 }
