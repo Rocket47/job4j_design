@@ -2,7 +2,7 @@ package generic;
 
 public class UserStore implements Store<User>{
 
-    private final Store<User> store = new MemStore<>();
+    public final Store<User> store = new MemStore<>();
 
     @Override
     public void add(User model) {
@@ -11,19 +11,12 @@ public class UserStore implements Store<User>{
 
     @Override
     public boolean replace(String id, User model) {
-        try {
-            store.replace(id, model);
-            return true;
-        }
-        catch (Exception ex) {
-            return false;
-        }
+       return store.replace(id, model);
     }
 
     @Override
     public boolean delete(String id) throws NullPointerException {
-        store.delete(id);
-        return true;
+        return store.delete(id);
     }
 
     @Override
