@@ -2,7 +2,7 @@ package generic;
 
 public class UserStore implements Store<User>{
 
-    public final Store<User> store = new MemStore<>();
+    private final Store<User> store = new MemStore<>();
 
     @Override
     public void add(User model) {
