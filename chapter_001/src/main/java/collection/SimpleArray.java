@@ -3,9 +3,9 @@ package collection;
 import java.util.*;
 
 public class SimpleArray<T> implements Iterable<T> {
-    int capacity = 10;
-    int currentIndex = 0;
-    int modCount = 0;
+    private int capacity = 10;
+    private int currentIndex = 0;
+    private int modCount = 0;
 
     private Object[] container = new Object[capacity];
 
@@ -15,7 +15,7 @@ public class SimpleArray<T> implements Iterable<T> {
     }
 
     public void add(T model) {
-        if (container.length > capacity) {
+        if (currentIndex == capacity - 1) {
             container = Arrays.copyOf(container, capacity * 2);
         }
         container[currentIndex] = model;
@@ -31,10 +31,7 @@ public class SimpleArray<T> implements Iterable<T> {
 
             @Override
             public boolean hasNext() {
-                if (indexIterator < currentIndex) {
-                    return true;
-                }
-                return false;
+                return indexIterator < currentIndex;
             }
 
             @Override
